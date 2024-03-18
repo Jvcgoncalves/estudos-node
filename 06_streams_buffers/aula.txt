@@ -1,0 +1,26 @@
+Streams: fluxos de dados contínuos, como um rio de informações que podem ser lidas ou escritas de forma incremental
+
+-> Principais características:
+* Usada para lidar com dados em pequenos pedaços (ou chunks), o que torna o processo mais eficiente
+* Ideal para otimizar operações em grandes volumes de dados e para processar fluxos contínuos 
+
+--> Tipos de streams
+- Readable stream
+- Write stream
+- Duplex stream
+- Transform stream
+
+----------------------
+
+Buffers: Áreas temporárias de armazenamento de dados, especialmente úteis quando trabalhamos com streams
+
+-> Principais características:
+* Áreas temporárias (normalmente na memória ram) para armazenamento de dados binários
+* São úteis para representar dados binários brutos, armazenando uma sequência de números inteiros (representação dos bytes)
+* Possuem um tamanho fixo, ou seja, não é possível mudar o tamanho de um buffer após ele ser criado
+
+--> Operações com buffers
+
+- Escrita, adicionar dados
+- Leitura, extrair dados
+- Manipulação
